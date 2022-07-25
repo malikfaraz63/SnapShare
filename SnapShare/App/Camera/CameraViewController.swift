@@ -33,6 +33,8 @@ class CameraViewController: UIViewController, AVCapturePhotoCaptureDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print("cows modification to remote")
+        
         previewLayer.frame = previewView.bounds
         previewView.layer.addSublayer(previewLayer)
         
